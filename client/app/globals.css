@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --background: #eee7dc;
+  --foreground: #282822;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: "Courier New", monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav-icon {
+  position: relative;
+  display: inline-grid;
+  height: 16px;
+  width: 16px;
+  place-items: center;
+}
+
+.nav-icon-search::before {
+  content: "";
+  height: 9px;
+  width: 9px;
+  border: 1.5px solid currentColor;
+  border-radius: 999px;
+}
+
+.nav-icon-search::after {
+  content: "";
+  position: absolute;
+  height: 1.5px;
+  width: 6px;
+  translate: 4px 5px;
+  rotate: 45deg;
+  background: currentColor;
+}
+
+.nav-icon-user::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  height: 5px;
+  width: 5px;
+  border: 1.5px solid currentColor;
+  border-radius: 999px;
+}
+
+.nav-icon-user::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  height: 6px;
+  width: 10px;
+  border: 1.5px solid currentColor;
+  border-radius: 999px 999px 2px 2px;
+}
+
+.nav-icon-bag::before {
+  content: "";
+  height: 10px;
+  width: 11px;
+  border: 1.5px solid currentColor;
+  border-radius: 2px;
+}
+
+.nav-icon-bag::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  height: 5px;
+  width: 6px;
+  border: 1.5px solid currentColor;
+  border-bottom: 0;
+  border-radius: 999px 999px 0 0;
+}
