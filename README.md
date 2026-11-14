@@ -13,7 +13,7 @@ ContractLens is an integrated AI Document Intelligence Platform that transforms 
 *   **AI Extraction:** Leverage OCR, NLP, and Computer Vision for automated data extraction.
 *   **Knowledge Graph + RAG:** Connect enterprise documents using Retrieval-Augmented Generation for evidence-based responses.
 *   **Platform Intelligence Workflow:** Monitor Document Ingestion, Semantic Indexing, and Human-in-the-loop reviews in real-time.
-*   **Enterprise Modules:** Built-in tools for KPI Analytics, BidPilot (Tender & RFP Intelligence), and Industrial AI (Maintenance & Asset Intelligence).
+*   **Enterprise Modules:** Built-in tools for KPI Analytics, Bidwise (Tender & RFP Intelligence), and Industrial AI (Maintenance & Asset Intelligence).
 
 ## 📁 Project Structure
 
