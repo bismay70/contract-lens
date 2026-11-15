@@ -1,4 +1,5 @@
 import { CapabilityPage } from "./_components/CapabilityPage";
+import { FaqSection } from "./_components/FaqSection";
 import { Footer } from "./_components/Footer";
 import { HomePage } from "./_components/HomePage";
 import { Navbar } from "./_components/Navbar";
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <CapabilityPage />
       <HomePage />
+      <FaqSection />
       <Footer />
     </main>
   );

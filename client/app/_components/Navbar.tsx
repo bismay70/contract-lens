@@ -3,7 +3,7 @@ import Link from "next/link";
 const leftLinks = ["Platform AI +", "Our Story", "What Is Insight?"];
 const rightLinks = [
   { href: "/dashboard", label: "Dashboard" },
-  { href: "#", label: "Team Tour" },
+  { href: "/login", label: "login" },
 ];
 
 export function Navbar() {

@@ -12,20 +12,26 @@ const resourceLinks = [
   "Support",
 ];
 
+import Image from "next/image";
+
 const socialLinks = ["in", "X", "GH", "YT", "WWW"];
 
 export function Footer() {
   return (
-    <footer className="bg-[#f4efe4] px-2 pb-2 text-[#efe8d6]">
+    <footer className="bg-[#f4efe4] w-full text-[#efe8d6]">
       <div className="relative overflow-hidden rounded-b-xl bg-[#073a28] px-6 pb-4 pt-9 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] sm:px-9 lg:px-12">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_30%_18%,rgba(163,255,48,0.12),transparent_26%),radial-gradient(circle_at_75%_60%,rgba(255,255,255,0.07),transparent_30%)]" />
 
         <div className="relative grid gap-10 lg:grid-cols-[1.4fr_0.9fr_0.9fr_1.6fr]">
           <section>
             <div className="flex items-center gap-3">
-              <span className="grid size-12 place-items-center rounded-xl bg-[#a8ff2f] text-2xl font-black text-[#073a28]">
-                CL
-              </span>
+             <Image
+  src="/favicon.ico"
+  alt="Logo"
+  width={48}
+  height={48}
+  className="rounded-xl object-contain"
+/>
               <h2 className="text-2xl font-black tracking-[-0.02em]">
                 ContractLens
               </h2>
